@@ -1,0 +1,21 @@
+2026-10-17T18:39:48.926612+00:00 ubuntu sudo: fatimah0702 : TTY=/dev/pts/0 ; PWD=/home/fatimah0702/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-17T18:39:49.250903+00:00 ubuntu groupadd[6189]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-17T18:39:49.253992+00:00 ubuntu groupadd[6189]: group added to /etc/gshadow: name=lab5user
+2026-10-17T18:39:49.256029+00:00 ubuntu groupadd[6189]: new group: name=lab5user, GID=1001
+2026-10-17T18:39:49.384584+00:00 ubuntu useradd[6194]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/1
+2026-10-17T18:40:08.064047+00:00 ubuntu passwd[6205]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-17T18:40:32.636585+00:00 ubuntu chfn[6209]: changed user 'lab5user' information
+2026-10-17T18:40:35.956605+00:00 ubuntu gpasswd[6221]: members of group users set by root to fatimah0702,lab5user
+2026-10-17T18:43:52.121096+00:00 ubuntu su[6258]: (to lab5user) fatimah0702 on pts/0
+2026-10-17T18:43:52.123907+00:00 ubuntu su[6258]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by fatimah0702(uid=1000)
+2026-10-17T18:44:44.518903+00:00 ubuntu su[6258]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-17T18:47:00.601818+00:00 ubuntu sudo: fatimah0702 : TTY=/dev/pts/0 ; PWD=/home/fatimah0702/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-17T18:47:12.268667+00:00 ubuntu sudo: fatimah0702 : TTY=/dev/pts/0 ; PWD=/home/fatimah0702/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-17T18:48:33.448645+00:00 ubuntu sudo: fatimah0702 : TTY=/dev/pts/0 ; PWD=/home/fatimah0702/lab05-linux ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-17T18:48:33.940359+00:00 ubuntu userdel[6385]: delete user 'lab5user'
+2026-10-17T18:48:33.940711+00:00 ubuntu userdel[6385]: delete 'lab5user' from group 'users'
+2026-10-17T18:48:33.941794+00:00 ubuntu userdel[6385]: removed group 'lab5user' owned by 'lab5user'
+2026-10-17T18:48:33.941991+00:00 ubuntu userdel[6385]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-17T18:48:33.942520+00:00 ubuntu userdel[6385]: delete 'lab5user' from shadow group 'users'
+2026-10-17T18:48:51.396993+00:00 ubuntu sudo: fatimah0702 : TTY=/dev/pts/0 ; PWD=/home/fatimah0702/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-17T18:49:00.386593+00:00 ubuntu sudo: fatimah0702 : TTY=/dev/pts/0 ; PWD=/home/fatimah0702/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
