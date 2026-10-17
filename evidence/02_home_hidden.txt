@@ -1,0 +1,14 @@
+total 52
+drwxr-x--- 8 fatimah0702 fatimah0702 4096 Oct 17 17:22 .
+drwxr-xr-x 3 root        root        4096 Sep 23 19:08 ..
+-rw------- 1 fatimah0702 fatimah0702  739 Oct 10 08:52 .bash_history
+-rw-r--r-- 1 fatimah0702 fatimah0702  220 Feb 13  2026 .bash_logout
+-rw-r--r-- 1 fatimah0702 fatimah0702 3771 Feb 13  2026 .bashrc
+drwx------ 2 fatimah0702 fatimah0702 4096 Sep 23 19:20 .cache
+-rw-rw-r-- 1 fatimah0702 fatimah0702  192 Oct 10 10:47 .gitconfig
+drwx------ 3 fatimah0702 fatimah0702 4096 Oct 10 09:29 .local
+-rw-r--r-- 1 fatimah0702 fatimah0702  807 Feb 13  2026 .profile
+drwx------ 2 fatimah0702 fatimah0702 4096 Oct 17 17:14 .ssh
+drwxrwxr-x 3 fatimah0702 fatimah0702 4096 Oct 10 16:52 Assignment01
+drwxrwxr-x 3 fatimah0702 fatimah0702 4096 Oct 10 08:58 Gitea
+drwxrwxr-x 5 fatimah0702 fatimah0702 4096 Oct 17 17:23 lab05-linux
